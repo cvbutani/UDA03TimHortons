@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/tim_logo"
+        android:layout_width="match_parent"
+        android:layout_height="214dp"
+        android:src="@drawable/tim_logonew" />
+
+    <ImageView
+        android:id="@+id/tim"
+        android:layout_width="140dp"
+        android:layout_height="93dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="27dp"
+        android:layout_marginTop="110dp"
+        android:src="@drawable/tim_logo" />
+
+    <ImageView
+        android:id="@+id/hourImg"
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:layout_alignEnd="@+id/company_name"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/t247" />
+
+    <TextView
+        android:id="@+id/company_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tim_logo"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:text="About"
+        android:textColor="@android:color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/founder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/company_name"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="16dp"
+        android:text="Canadian chain selling signature premium-blend coffee, plus light fare like pastries, panini and soup."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/founder"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"
+        android:text="Address"
+        android:textColor="@android:color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hours"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="16dp"
+        android:text="7965 Financial Dr, Brampton, ON L6Y 0J8"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"
+        android:text="Phone"
+        android:textColor="@android:color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="16dp"
+        android:text="(905) 874-1889"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/follow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/num"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"
+        android:text="Follow Us"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"/>
+
+    <ImageView
+        android:src="@drawable/facebook"
+        android:id="@+id/facebook"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:layout_below="@id/follow" />
+
+    <ImageView
+        android:src="@drawable/insta"
+        android:id="@+id/insta"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="16dp"
+        android:layout_below="@id/follow"
+        android:layout_toRightOf="@id/facebook"/>
+
+    <ImageView
+        android:src="@drawable/twitter"
+        android:id="@+id/twitter"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="16dp"
+        android:layout_below="@id/follow"
+        android:layout_toRightOf="@id/insta"/>
+
+    <ImageView
+        android:src="@drawable/youtube"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="16dp"
+        android:layout_below="@id/follow"
+        android:layout_toRightOf="@id/twitter"/>
+
+
+</RelativeLayout>
